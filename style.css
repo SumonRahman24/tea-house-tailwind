@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-gradient {
+  border-radius: 10px;
+  background: var(--linear, linear-gradient(270deg, #f00 0%, #ff8938 100%));
+}
